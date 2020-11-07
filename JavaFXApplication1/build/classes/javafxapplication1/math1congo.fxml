@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="javafxapplication1.Math1congoController">
+   <children>
+      <Label layoutX="271.0" layoutY="210.0" prefHeight="94.0" prefWidth="807.0" text="CONGRATULATIONS !!" textFill="#24bbdd">
+         <font>
+            <Font name="Liquid Italic" size="72.0" />
+         </font>
+      </Label>
+      <Button layoutX="478.0" layoutY="396.0" mnemonicParsing="false" onAction="#changeScreen1" styleClass="back3" stylesheets="@math_level_style.css" text="HOME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Button>
+      <Button layoutX="722.0" layoutY="396.0" mnemonicParsing="false" onAction="#changeScreen2" styleClass="submit3" stylesheets="@math_level_style.css" text="LEVEL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

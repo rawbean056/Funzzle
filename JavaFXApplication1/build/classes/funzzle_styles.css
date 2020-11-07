@@ -1,0 +1,31 @@
+.btn_solve{
+    -fx-background-image: url("lets.jpg");
+}
+.btn_solve:hover {
+    -fx-background-image: url("solve_hover.jpg");
+}
+.btn_solve:pressed {
+    -fx-background-image: url("solve_click.jpg");
+}
+
+.menu_btn_1{
+    -fx-background-image: url("menu_1.jpg");
+}
+.menu_btn_1:hover {
+    -fx-background-image: url("menu_1_hover.jpg");
+}
+.menu_btn_2{
+    -fx-background-image: url("menu_2.jpg");
+}
+.menu_btn_2:hover{
+    -fx-background-image: url("menu_2_hover.jpg");
+}
+.menu_btn_3{
+    -fx-background-image: url("menu_3.jpg");
+}
+.menu_btn_3{
+    -fx-background-image: url("menu_3_hover.jpg");
+}
+.go_back {
+    -fx-background-image: url("back-icon.png");
+}

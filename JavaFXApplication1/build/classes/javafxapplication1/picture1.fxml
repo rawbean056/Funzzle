@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1" fx:controller="javafxapplication1.Picture1Controller">
+   <children>
+      <ImageView fitHeight="720.0" fitWidth="1280.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@1203252.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="1199.0" layoutY="14.0" mnemonicParsing="false" onAction="#changeScreen1" prefHeight="67.0" prefWidth="66.0" styleClass="picture1_home" stylesheets="@funzzle_styles.css" />
+   </children>
+</AnchorPane>
